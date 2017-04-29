@@ -8,10 +8,10 @@
     <title>Cameron Pittman: Portfolio</title>
 
     <!-- Hmm, what is the impact of web fonts on speed? Measure it... -->
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <!-- <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> -->
 
     <!-- <link href="css/style.css" rel="stylesheet" inline> -->
-    <link href="css/print.css" rel="stylesheet" media="print">
+    <!-- <link href="css/print.css" rel="stylesheet" media="print"> -->
 
     <script>
       (function(w,g){w['GoogleAnalyticsObject']=g;
@@ -24,7 +24,7 @@
     <script async src="http://www.google-analytics.com/analytics.js"></script>
     <script async src="js/perfmatters.js"></script>
 
-    <style type="text/css">
+    <style>
         html {
           font-size: 100%;
           overflow-y: scroll;
@@ -119,19 +119,7 @@
       </div>
 
       
-      <script>
-      var loadDeferredStyles = function() {
-        var addStylesNode = document.getElementById("deferred-styles");
-        var replacement = document.createElement("div");
-        replacement.innerHTML = addStylesNode.textContent;
-        document.body.appendChild(replacement)
-        addStylesNode.parentElement.removeChild(addStylesNode);
-      };
-      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-          webkitRequestAnimationFrame || msRequestAnimationFrame;
-      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
-      else window.addEventListener('load', loadDeferredStyles);
-    </script>
+  
 
 
       <footer>
