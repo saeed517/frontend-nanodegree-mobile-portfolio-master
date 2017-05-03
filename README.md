@@ -6,8 +6,8 @@ To get started, check out the repository and inspect the code.
 
 ### Getting started
 
-1. You can take a look at index.html [here](http://juanmartin86.github.io/frontend-nanodegree-mobile-portfolio-master/).
-2. You can take a look at pizza.html [here](http://juanmartin86.github.io/frontend-nanodegree-mobile-portfolio-master/views/pizza.html).
+1. You can take a look at index.html (https://saeed517.github.io/frontend-nanodegree-mobile-portfolio-master/index.html).
+2. You can take a look at pizza.html (https://github.com/saeed517/frontend-nanodegree-mobile-portfolio-master/blob/master/views/pizza.html).
 
 
 #### Part 1: Optimize PageSpeed Insights score for index.html
@@ -16,14 +16,14 @@ To identify and perform optimizations to achieve a PageSpeed score above 90 on i
 
 1. I prevented render blocking CSS by using (media = “print”) to print.css.
 2. I prevented render blocking JS by making analytics.js async. 
-3. I have changed pizzeria.jpg to pizzeria100w.jpg and I changed picture width to 100px.
+3. I have changed pizzeria.jpg to pizzeria100.jpg and I changed picture width to 100px.
 4. I added style.css delivery through making it to inline CSS in index.html.
 5. I optimized pizzeria 100w.jpg and profilepic.jpg using the online tool. (https://www.easy-resize.com/en/?gclid=CL-02Mqtx9MCFQML0wodYMAIOA)
 
 
 #### Results:
 
-Score of 95 Mobile / 97 Desktop on PageSpeed Insights --> (https://saeed517.github.io/frontend-nanodegree-mobile-portfolio-master/index.html)
+Score of 96 Mobile / 97 Desktop on PageSpeed Insights --> (https://saeed517.github.io/frontend-nanodegree-mobile-portfolio-master/index.html)
 
 #### References:
 
