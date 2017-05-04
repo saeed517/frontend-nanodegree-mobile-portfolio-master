@@ -18,7 +18,7 @@ To identify and perform optimizations to achieve a PageSpeed score above 90 on i
 2. I prevented render blocking JS by making analytics.js async. 
 3. I have changed pizzeria.jpg to pizzeria100.jpg and I changed picture width to 100px.
 4. I added style.css delivery through making it to inline CSS in index.html.
-5. I optimized pizzeria 100w.jpg and profilepic.jpg using the online tool. (https://www.easy-resize.com/en/?gclid=CL-02Mqtx9MCFQML0wodYMAIOA)
+5. I optimized pizzeria100.jpg and profilepic.jpg using the online tool. (https://www.easy-resize.com/en/?gclid=CL-02Mqtx9MCFQML0wodYMAIOA)
 
 
 #### Results:
